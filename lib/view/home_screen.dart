@@ -21,8 +21,8 @@ class HomeScreen extends StatelessWidget {
       'screen': RouteNames.animatedContainer,
     },
     {
-      'title': 'Other Screen',
-      'screen': RouteNames.otherScreen,
+      'title': 'Animated Text Kit',
+      'screen': RouteNames.animatedTextKitScreen,
     }
   ];
   @override

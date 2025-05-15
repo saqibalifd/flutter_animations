@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations/view/animated_text/animated_textkit_screen.dart';
 
 import '../view/animated_container/animated_container_screen.dart';
 import '../view/home_screen.dart';
-import '../view/other_screen.dart/other_screen.dart';
 import 'route_names.dart';
 
 class AppRoutes {
@@ -10,6 +10,7 @@ class AppRoutes {
     // Auth
     RouteNames.homeScreen: (context) => HomeScreen(),
     RouteNames.animatedContainer: (context) => const AnimatedContainerScreen(),
-    RouteNames.otherScreen: (context) => const OtherScreen(),
+    RouteNames.animatedTextKitScreen: (context) =>
+        const AnimatedTextkitScreen(),
   };
 }
